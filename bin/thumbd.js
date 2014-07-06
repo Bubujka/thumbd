@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+require('dotenv').load();
 var thumbd = require('../lib'),
 	_ = require('underscore'),
 	fs = require('fs'),
